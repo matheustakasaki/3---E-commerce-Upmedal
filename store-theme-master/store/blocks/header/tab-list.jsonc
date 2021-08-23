@@ -1,0 +1,55 @@
+{
+    // Tab layout
+    "tab-layout#home": {
+        "children": [
+            "tab-list#home",
+            "tab-content#home"
+        ],
+        "props": {
+            "blockClass": "home",
+            "defaultActiveTabId": "home1"
+        }
+    },
+    "tab-list#home": {
+        "children": [
+            "tab-list.item#home1"
+        ]
+    },
+    "tab-list.item#home1": {
+        "props": {
+            "tabId": "home1",
+            "label": "Categoria",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-content#home": {
+        "children": [
+            "tab-content.item#home1"
+        ]
+    },
+    "tab-content.item#home1": {
+        "children": [
+            "flex-layout.row#c"
+        ],
+        "props": {
+            "tabId": "home1"
+        }
+    },
+    "flex-layout.row#c": {
+        "children": [
+            "search-result-layout.customQuery#bones"
+        ]
+    },
+    // Search Results
+    "search-result-layout.customQuery#bones": {
+        "props": {
+            "querySchema": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip"
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop"
+        ]
+    }
+}

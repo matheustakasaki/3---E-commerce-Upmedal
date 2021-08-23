@@ -111,3 +111,34 @@
   font-weight: bold;
   font-size: 30px;
 }
+
+.searchBarInnerContainer :global(.vtex-input-prefix__group) {
+  border: none;
+}
+.searchBarInnerContainer
+  :global(.vtex-input-prefix__group)
+  :global(.vtex-styleguide-9-x-input) {
+  background-color: transparent;
+  background-color: #00000000;
+
+  border-bottom: solid 3px #fff;
+}
+
+.searchBarInnerContainer
+  :global(.vtex-input-prefix__group)
+  :global(.vtex-input__suffix) {
+  background-color: transparent;
+  background-color: #00000000;
+
+  color: #fff;
+}
+.searchBarInnerContainer
+  :global(.vtex-input-prefix__group)
+  :global(.vtex-styleguide-9-x-input):focus {
+  border-color: #5aff00;
+}
+
+.searchBarIcon {
+  color: #fff;
+}
+ 

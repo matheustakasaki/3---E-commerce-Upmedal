@@ -14,21 +14,21 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#4-desktop"]
+    "children": [
+      "flex-layout.row#4-desktop"
+    ]
   },
   "flex-layout.row#4-desktop": {
     "props": {
-      "blockClass": "main-header",
+      "blockClass": ["main-header", "dark-bg"],
       "horizontalAlign": "center",
       "verticalAlign": "center",
-      "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true
     },
     "children": [
       "flex-layout.col#logo-desktop",
       "search-bar",
-      "login",
       "minicart.v2"
     ]
   },
@@ -50,13 +50,14 @@
     "children": ["sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
+    "children": [
+      "flex-layout.row#1-mobile"
+    ]
   },
   "flex-layout.row#1-mobile": {
     "children": [
       "drawer",
       "logo#mobile",
-      "login",
       "minicart.v2"
     ],
     "props": {

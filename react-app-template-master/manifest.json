@@ -1,0 +1,18 @@
+{
+  "vendor": "hiringcoders2021",
+  "name": "customapp",
+  "version": "0.0.0",
+  "title": "hiringcoders2021 custom",
+  "description": "hiringcoders2021 custom app for leads",
+  "builders": {
+    "react": "3.x",
+    "messages": "1.x",
+    "docs": "0.x"
+  },
+  "dependencies": {},
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
