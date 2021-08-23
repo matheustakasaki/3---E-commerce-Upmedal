@@ -2721,6 +2721,10 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+"hiringcoders2021.customapp@https://matheusantunes--hiringcoders2021.myvtex.com/_v/private/typings/linked/v1/hiringcoders2021.customapp@0.0.2+build1629685989/public/@types/hiringcoders2021.customapp":
+  version "0.0.2"
+  resolved "https://matheusantunes--hiringcoders2021.myvtex.com/_v/private/typings/linked/v1/hiringcoders2021.customapp@0.0.2+build1629685989/public/@types/hiringcoders2021.customapp#6b33e3424183fb6d4c1241659ea832fc5ff53180"
+
 hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
@@ -4949,6 +4953,10 @@ verror@1.10.0:
 "vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.131.0/public/@types/vtex.render-runtime":
   version "8.131.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.131.0/public/@types/vtex.render-runtime#dcc88828e3d65ecb4e7538a3623a4b1ddd77e034"
+
+"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.145.0/public/@types/vtex.styleguide":
+  version "9.145.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.145.0/public/@types/vtex.styleguide#41dfb32af8756eb5528dbd452e47003a8f67fe8c"
 
 w3c-hr-time@^1.0.1:
   version "1.0.2"

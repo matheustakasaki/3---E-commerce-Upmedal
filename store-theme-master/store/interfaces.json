@@ -1,5 +1,7 @@
 {
-  "Whats": {
-    "component": "Whats"
+  
+    "Greeting": {
+      "component": "Greeting"
+    }
   }
-}
+    
